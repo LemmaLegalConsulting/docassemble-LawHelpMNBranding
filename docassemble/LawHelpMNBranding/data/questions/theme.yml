@@ -1,0 +1,13 @@
+---
+comment: |
+  Include after docassemble.AssemblyLine:assembly_line.yml.
+  Assets belong to this package; no copies are needed in consuming interviews.
+features:
+  bootstrap theme: LawHelpMNBranding_custom.css
+---
+objects:
+- al_logo: DAStaticFile.using(filename="LawHelpMN2x_002_resized.png", alt_text="LawHelpMN")
+---
+code: |
+  AL_ORGANIZATION_TITLE = "LawHelpMN"
+  AL_ORGANIZATION_HOMEPAGE = "https://www.lawhelpmn.org/"
